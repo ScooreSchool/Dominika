@@ -1,0 +1,17 @@
+html, body {
+    font-family: 'Alexandria', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed; /* Rögzíti a footer-t */
+    bottom: 0; /* Az oldal aljára helyezi */
+    left: 0;
+    z-index: 1000; /* Biztosítja, hogy a lábléc minden más felett legyen */
+  }

@@ -1,0 +1,35 @@
+<div class="container mt-5 p-2 shadow">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="mb-2">
+                <label for="csapat" class="form-label">Válassz csapatot:</label>
+                <input type="text" class="p-2 mb-3 form-control" placeholder="Írd be a csapat nevét">
+            </div>
+
+            <div class="mb-2">
+                <label for="statisztika" class="form-label">Válassz statisztikát:</label>
+                <select id="statisztika" class="p-2 mb-3 form-select">
+                    <option value="golok">Gólok</option>
+                    <option value="meccsek">Meccsek</option>
+                    <option value="slapok">Sárga lapok</option>
+                </select>
+            </div>
+
+            <div class="mb-2">
+                <label for="diagramtipus" class="form-label">Válassz diagram típust:</label>
+                <select id="diagramtipus" class="p-2 mb-3 form-select">
+                    <option value="kor">Kördiagram</option>
+                    <option value="oszlop">Oszlopdiagram</option>
+                    <option value="vonal">Vonaldiagram</option>
+                </select>
+            </div>
+
+            <button class="btn btn-success text-white w-100 mb-3">Diagram készítése</button>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="border border-success shadow h-100">
+                <canvas></canvas>
+            </div>
+        </div>
+    </div>
+</div>
